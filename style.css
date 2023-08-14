@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0;}
+
+.para{
+  padding: 1rem;
+  font-size: 50px;
+}
+
+.gallery-timeline{
+  height: 2000px;
+  border: 10px dashed darkgreen;
+}
+.gallery-timeline .gallery{
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 350vw;
+  height: 100vh;
+  border: 10px dashed darkblue;
+}
+.gallery-timeline .gallery-item{
+  width: 70vw;
+}
+.gallery-timeline img{
+  width: 100%;
+}
